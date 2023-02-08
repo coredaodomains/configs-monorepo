@@ -1,6 +1,6 @@
 {
   "name": "@coredomains/eslint-config",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Coredomains ESLint Config.",
   "homepage": "https://github.com/coredaodomains/configs-monorepo/blob/main/packages/base/README.md",
   "repository": {
