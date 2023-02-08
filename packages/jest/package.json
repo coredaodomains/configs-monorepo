@@ -1,0 +1,47 @@
+{
+  "name": "@coredomains/eslint-config-jest",
+  "version": "0.0.1",
+  "description": "Coredomains ESLint Configuration for Jest.",
+  "main": "src/index.js",
+  "homepage": "https://github.com/coredaodomains/configs-monorepo#readme",
+  "files": [
+    "src/",
+    "!src/**/*.test.js",
+    "!src/__test__/**"
+  ],
+  "scripts": {
+    "publish": "npm publish",
+    "jest": "jest --config jest.config.js",
+    "test": "eslint ."
+  },
+  "author": "lanbery",
+  "contributors": [
+    {
+      "name": "lanbery",
+      "email": "lanbery@gmail.com",
+      "url": "https://github.com/lanbery"
+    }
+  ],
+  "bugs": {
+    "url": "https://github.com/coredaodomains/configs-monorepo/issues"
+  },
+  "license": "MIT",
+  "publishConfig": {
+    "access": "public",
+    "registry": "https://registry.npmjs.org/"
+  },
+  "devDependencies": {
+    "eslint": "^8.33.0",
+    "jest": "^29.4.2",
+    "prettier": "^2.8.4"
+  },
+  "peerDependencies": {
+    "eslint": "^8.33.0",
+    "eslint-config-prettier": "^8.6.0",
+    "eslint-plugin-import": "^2.27.5",
+    "eslint-plugin-jsdoc": "^39.8.0",
+    "eslint-plugin-prettier": "^4.2.1",
+    "jest": "^29.4.2",
+    "prettier": "^2.8.4"
+  }
+}
