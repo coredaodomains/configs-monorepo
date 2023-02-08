@@ -3,7 +3,11 @@
   "version": "0.0.2",
   "description": "Coredomains ESLint Configuration for Jest.",
   "main": "src/index.js",
-  "homepage": "https://github.com/coredaodomains/configs-monorepo/tree/dev-main/packages/typescript#readme",
+  "homepage": "https://github.com/coredaodomains/configs-monorepo/blob/main/packages/jest/README.md",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/coredaodomains/configs-monorepo.git"
+  },
   "files": [
     "src/",
     "!src/**/*.test.js",

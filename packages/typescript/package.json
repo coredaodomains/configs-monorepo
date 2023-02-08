@@ -2,7 +2,11 @@
   "name": "@coredomains/eslint-config-typescript",
   "version": "0.0.2",
   "description": "Coredomains ESLint Config for TypeScript.",
-  "homepage": "https://github.com/coredaodomains/configs-monorepo#readme",
+  "homepage": "https://github.com/coredaodomains/configs-monorepo/blob/main/packages/typescript/README.md",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/coredaodomains/configs-monorepo.git"
+  },
   "main": "src/index.js",
   "files": [
     "src/",

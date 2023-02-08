@@ -2,6 +2,11 @@
   "name": "@coredomains/eslint-config",
   "version": "0.0.1",
   "description": "Coredomains ESLint Config.",
+  "homepage": "https://github.com/coredaodomains/configs-monorepo/blob/main/packages/base/README.md",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/coredaodomains/configs-monorepo.git"
+  },
   "main": "src/index.js",
   "files": [
     "src/",
