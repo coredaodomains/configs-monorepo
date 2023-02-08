@@ -8,9 +8,9 @@
     "!src/**/*.test.js"
   ],
   "scripts": {
-    "publish":"npm publish",
-    "jest": "jest --config jest.config.js",
-    "test": "eslint ."
+    "publish": "npm publish",
+    "test": "jest --config jest.config.js --coverage",
+    "lint": "eslint . --fix"
   },
   "author": "lanbery",
   "contributors": [

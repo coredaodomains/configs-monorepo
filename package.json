@@ -1,10 +1,11 @@
 {
   "name": "coredomains-config-root",
-  "version": "1.0.0",
+  "version": "0.0.1",
   "description": "coredomains config",
   "private": true,
   "scripts": {
-    "test": "pnpm test -r --filter='./packages/*'"
+    "test": "pnpm -r --filter \"./packages/**\" test",
+    "lint": "pnpm -r --filter ./packages/** lint"
   },
   "keywords": [],
   "author": "coredomains teams",
@@ -13,7 +14,6 @@
     "node": ">=14.0.0"
   },
   "devDependencies": {
-    "@coredomains/eslint-config": "workspace:^0.0.1",
     "@typescript-eslint/eslint-plugin": "^5.51.0",
     "@typescript-eslint/parser": "^5.51.0",
     "eslint": "^8.33.0",
