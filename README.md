@@ -1,1 +1,1 @@
-# configs-monorepo
+# coredomains configs monorepo

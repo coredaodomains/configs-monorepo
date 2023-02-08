@@ -1,0 +1,4 @@
+# pnpm workspaces
+packages:
+  - 'packages/*'
+  - '!**/test/**'
