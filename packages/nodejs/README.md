@@ -1,6 +1,6 @@
-# `@coredomains/eslint-config-jest`
+# `@coredomains/eslint-config-nodejs`
 
-CoreDAO Domains's [Jest](https://jestjs.io/) ESLint configuration.
+CoreDAO Domains's [Node.js](https://nodejs.org) ESLint configuration.
 
 ## Usage
 
@@ -23,12 +23,12 @@ order thereafter.
 
 ```js
 module.exports = {
-  root: true,
-
   extends: [
     // These should be added last unless you know what you're doing.
     '@coredomains/eslint-config',
-    '@coredomains/eslint-config-jest',
+    '@coredomains/eslint-config-nodejs',
   ],
 };
 ```
+
+To lint the `.eslintrc.js` file itself, you will **need** to add this config in addition to the base config.
