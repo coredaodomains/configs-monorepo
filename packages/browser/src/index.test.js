@@ -1,6 +1,6 @@
 const { ESLint } = require('eslint');
 
-const config = require('../');
+const config = require('.');
 
 describe('index', () => {
   it('is a valid ESLint config', async () => {

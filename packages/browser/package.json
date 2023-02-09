@@ -1,0 +1,55 @@
+{
+  "name": "@coredomains/eslint-config-browser",
+  "version": "0.0.1",
+  "description": "Coredomains ESLint Config For Browser.",
+  "homepage": "https://github.com/coredaodomains/configs-monorepo/blob/main/packages/base/README.md",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/coredaodomains/configs-monorepo.git"
+  },
+  "main": "src/index.js",
+  "files": [
+    "src/",
+    "!src/**/*.test.js"
+  ],
+  "scripts": {
+    "publish": "npm publish",
+    "test": "jest --config jest.config.js --coverage",
+    "lint": "eslint . --fix"
+  },
+  "keywords": [
+    "coredomains",
+    "cnsjs"
+  ],
+  "author": "lanbery<lanbery@gmail.com>",
+  "contributors": [
+    {
+      "name": "lanbery",
+      "email": "lanbery@gmail.com",
+      "url": "https://github.com/lanbery"
+    }
+  ],
+  "bugs": {
+    "url": "https://github.com/coredaodomains/configs-monorepo/issues"
+  },
+  "license": "MIT",
+  "publishConfig": {
+    "access": "public",
+    "registry": "https://registry.npmjs.org/"
+  },
+  "devDependencies": {
+    "eslint": "^8.33.0",
+    "eslint-config-prettier": "^8.6.0",
+    "eslint-plugin-import": "^2.27.5",
+    "eslint-plugin-jsdoc": "^39.8.0",
+    "eslint-plugin-prettier": "^4.2.1",
+    "prettier": "^2.8.4"
+  },
+  "peerDependencies": {
+    "eslint": "^8.33.0"
+  },
+  "engines": {
+    "node": ">=14.0.0",
+    "npm": ">=7"
+  }
+}
