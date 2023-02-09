@@ -1,7 +1,11 @@
 {
-  "name": "@coredomains/eslint-config-mocha",
+  "name": "@cnsjs/eslint-config-mocha",
   "version": "0.0.1",
   "description": "Coredomains ESLint Config For Mocha.",
+  "keywords": [
+    "coredomains",
+    "cnsjs"
+  ],
   "homepage": "https://github.com/coredaodomains/configs-monorepo/blob/main/packages/mocha/README.md",
   "repository": {
     "type": "git",
@@ -13,12 +17,11 @@
     "!src/**/*.test.js"
   ],
   "scripts": {
-    "publish": "npm publish",
+    "publish": "pnpm publish --no-git-checks",
     "test": "jest --config jest.config.js --coverage --verbose",
     "lint": "eslint . --fix"
   },
-  "keywords": [],
-  "author": "Coredomains Teams",
+  "author": "CNSJs Team",
   "contributors": [
     {
       "name": "lanbery",
@@ -35,7 +38,7 @@
     "registry": "https://registry.npmjs.org/"
   },
   "devDependencies": {
-    "@coredomains/eslint-config": "workspace:*",
+    "@cnsjs/eslint-config": "^0.0.1",
     "eslint": "^8.33.0",
     "eslint-config-prettier": "^8.6.0",
     "eslint-plugin-import": "^2.27.5",

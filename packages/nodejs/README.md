@@ -1,4 +1,4 @@
-# `@coredomains/eslint-config-nodejs`
+# `@cnsjs/eslint-config-nodejs`
 
 CoreDAO Domains's [Node.js](https://nodejs.org) ESLint configuration.
 
@@ -6,7 +6,7 @@ CoreDAO Domains's [Node.js](https://nodejs.org) ESLint configuration.
 
 ```bash
 yarn add --dev \
-    @coredomains/eslint-config@workspace:^0.0.1 \
+    @cnsjs/eslint-config@workspace:^0.0.1 \
     eslint@^8.33.0 \
     eslint-config-prettier@^8.6.0 \
     eslint-plugin-import@^2.27.5 \
@@ -17,16 +17,16 @@ yarn add --dev \
 ```
 
 The order in which you extend ESLint rules matters.
-The `@coredomains/*` eslint configs should be added to the `extends` array _last_,
-with `@coredomains/eslint-config` first, and `@coredomains/eslint-config-*` in any
+The `@cnsjs/*` eslint configs should be added to the `extends` array _last_,
+with `@cnsjs/eslint-config` first, and `@cnsjs/eslint-config-*` in any
 order thereafter.
 
 ```js
 module.exports = {
   extends: [
     // These should be added last unless you know what you're doing.
-    '@coredomains/eslint-config',
-    '@coredomains/eslint-config-nodejs',
+    '@cnsjs/eslint-config',
+    '@cnsjs/eslint-config-nodejs',
   ],
 };
 ```

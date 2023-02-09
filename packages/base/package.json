@@ -2,6 +2,10 @@
   "name": "@cnsjs/eslint-config",
   "version": "0.0.1",
   "description": "Coredomains ESLint Config.",
+  "keywords": [
+    "coredomains",
+    "cnsjs"
+  ],
   "homepage": "https://github.com/coredaodomains/configs-monorepo/blob/main/packages/base/README.md",
   "repository": {
     "type": "git",

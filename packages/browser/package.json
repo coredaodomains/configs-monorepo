@@ -1,7 +1,11 @@
 {
-  "name": "@coredomains/eslint-config-browser",
+  "name": "@cnsjs/eslint-config-browser",
   "version": "0.0.1",
   "description": "Coredomains ESLint Config For Browser.",
+  "keywords": [
+    "coredomains",
+    "cnsjs"
+  ],
   "homepage": "https://github.com/coredaodomains/configs-monorepo/blob/main/packages/base/README.md",
   "repository": {
     "type": "git",
@@ -13,14 +17,10 @@
     "!src/**/*.test.js"
   ],
   "scripts": {
-    "publish": "npm publish",
+    "publish": "pnpm publish",
     "test": "jest --config jest.config.js --coverage",
     "lint": "eslint . --fix"
   },
-  "keywords": [
-    "coredomains",
-    "cnsjs"
-  ],
   "author": "lanbery<lanbery@gmail.com>",
   "contributors": [
     {

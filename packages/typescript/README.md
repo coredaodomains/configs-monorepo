@@ -1,4 +1,4 @@
-# `@coredomains/eslint-config-typescript`
+# `@cnsjs/eslint-config-typescript`
 
 CoreDAO Domains's [TypeScript](https://www.typescriptlang.org) ESLint configuration.
 
@@ -6,8 +6,8 @@ CoreDAO Domains's [TypeScript](https://www.typescriptlang.org) ESLint configurat
 
 ```bash
 yarn add --dev \
-    @coredomains/eslint-config@^0.0.1 \
-    @coredomains/eslint-config-typescript@^0.0.1 \
+    @cnsjs/eslint-config@^0.0.1 \
+    @cnsjs/eslint-config-typescript@^0.0.1 \
     @typescript-eslint/eslint-plugin@^5.51.0 \
     @typescript-eslint/parser@^5.51.0 \
     eslint@^8.27.0 \
@@ -19,8 +19,8 @@ yarn add --dev \
 ```
 
 The order in which you extend ESLint rules matters.
-The `@coredomains/*` eslint configs should be added to the `extends` array _last_,
-with `@coredomains/eslint-config` first, and `@coredomains/eslint-config-*` in any
+The `@cnsjs/*` eslint configs should be added to the `extends` array _last_,
+with `@cnsjs/eslint-config` first, and `@cnsjs/eslint-config-*` in any
 order thereafter.
 
 ```js
@@ -29,7 +29,7 @@ module.exports = {
 
   extends: [
     // This should be added last unless you know what you're doing.
-    '@coredomains/eslint-config',
+    '@cnsjs/eslint-config',
   ],
 
   overrides: [
@@ -37,7 +37,7 @@ module.exports = {
     // non-TypeScript files, so it should be added in an override.
     {
       files: ['*.ts'],
-      extends: ['@coredomains/eslint-config-typescript'],
+      extends: ['@cnsjs/eslint-config-typescript'],
     },
   ],
 
