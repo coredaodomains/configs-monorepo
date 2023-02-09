@@ -3,5 +3,6 @@
 ## Development
 
 ```bash
-
+yarn
+yarn clean
 ```

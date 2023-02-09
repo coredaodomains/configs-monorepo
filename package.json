@@ -11,6 +11,7 @@
     "test": "pnpm -r --filter \"./packages/**\" test",
     "lint": "pnpm -r --filter ./packages/** lint",
     "jest": "jest --config jest.config.js --verbose --coverage",
+    "check:deps": "node scripts/check-dependencies.js",
     "pretty": "prettier --write ."
   },
   "keywords": [],
