@@ -1,0 +1,15 @@
+# Please see the documentation for all configuration options:
+# https://docs.github.com/en/actions/automating-builds-and-tests/building-and-testing-nodejs
+
+version: 2
+updates:
+  - package-ecosystem: 'npm'
+    directory: '/'
+    schedule:
+      interval: 'daily'
+      time: '06:00'
+    allow:
+      - dependency-name: '@coredomains/*'
+    target-branch: 'main'
+    versioning-strategy: 'increase-if-necessary'
+    open-pull-requests-limit: 10
