@@ -1,6 +1,6 @@
 {
   "name": "@coredomains/eslint-config-jest",
-  "version": "0.0.2",
+  "version": "0.0.1",
   "description": "Coredomains ESLint Configuration for Jest.",
   "main": "src/index.js",
   "homepage": "https://github.com/coredaodomains/configs-monorepo/blob/main/packages/jest/README.md",
@@ -46,7 +46,6 @@
     "prettier": "^2.8.4"
   },
   "peerDependencies": {
-    "@coredomains/eslint-config": "workspace:*",
     "eslint": "^8.33.0",
     "eslint-config-prettier": "^8.6.0",
     "eslint-plugin-import": "^2.27.5",

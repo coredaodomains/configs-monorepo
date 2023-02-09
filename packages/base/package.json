@@ -1,6 +1,6 @@
 {
-  "name": "@coredomains/eslint-config",
-  "version": "0.0.2",
+  "name": "@cnsjs/eslint-config",
+  "version": "0.0.1",
   "description": "Coredomains ESLint Config.",
   "homepage": "https://github.com/coredaodomains/configs-monorepo/blob/main/packages/base/README.md",
   "repository": {
@@ -13,7 +13,7 @@
     "!src/**/*.test.js"
   ],
   "scripts": {
-    "publish": "npm publish",
+    "publish": "pnpm publish --force --no-git-checks",
     "test": "jest --config jest.config.js --coverage",
     "lint": "eslint . --fix"
   },

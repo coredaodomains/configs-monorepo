@@ -1,4 +1,4 @@
-# `@coredomains/eslint-config`
+# `@cnsjs/eslint-config`
 
 CoreDomains's base ESLint configuration.
 
@@ -8,7 +8,7 @@ Default export contains a base set of ESLint rules for ES6+:
 
 ```bash
 yarn add --dev \
-    @coredomains/eslint-config@^0.0.1 \
+    @cnsjs/eslint-config@^0.0.1 \
     eslint@^8.33.0 \
     eslint-config-prettier@^8.6.0 \
     eslint-plugin-import@^2.27.5 \
@@ -19,15 +19,15 @@ yarn add --dev \
 ```
 
 The order in which you extend ESLint rules matters.
-The `@coredomains/*` eslint configs should be added to the `extends` array _last_,
-with `@coredomains/eslint-config` first, and `@coredomains/eslint-config-*` in any
+The `@cnsjs/*` eslint configs should be added to the `extends` array _last_,
+with `@cnsjs/eslint-config` first, and `@cnsjs/eslint-config-*` in any
 order thereafter.
 
 ```js
 module.exports = {
   extends: [
     //...
-    '@coredomains/eslint-config',
+    '@cnsjs/eslint-config',
   ],
 };
 ```

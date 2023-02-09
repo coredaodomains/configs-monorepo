@@ -6,7 +6,8 @@ CoreDAO Domains's [Jest](https://jestjs.io/) ESLint configuration.
 
 ```bash
 yarn add --dev \
-    @coredomains/eslint-config@workspace:^0.0.1 \
+    @coredomains/eslint-config@^0.0.1 \
+    @coredomains/eslint-config-jest@^0.0.1 \
     eslint@^8.33.0 \
     eslint-config-prettier@^8.6.0 \
     eslint-plugin-import@^2.27.5 \

@@ -1,6 +1,6 @@
 {
   "name": "@coredomains/eslint-config-typescript",
-  "version": "0.0.2",
+  "version": "0.0.1",
   "description": "Coredomains ESLint Config for TypeScript.",
   "homepage": "https://github.com/coredaodomains/configs-monorepo/blob/main/packages/typescript/README.md",
   "repository": {
@@ -35,7 +35,7 @@
     "registry": "https://registry.npmjs.org/"
   },
   "devDependencies": {
-    "@coredomains/eslint-config": "workspace:^0.0.2",
+    "@coredomains/eslint-config": "^0.0.1",
     "@types/jest": "^29.4.0",
     "@typescript-eslint/eslint-plugin": "^5.51.0",
     "@typescript-eslint/parser": "^5.51.0",
@@ -50,7 +50,6 @@
     "typescript": "^4.9.5"
   },
   "peerDependencies": {
-    "@coredomains/eslint-config": "workspace:^0.0.2",
     "@types/jest": "^29.4.0",
     "@typescript-eslint/eslint-plugin": "^5.51.0",
     "@typescript-eslint/parser": "^5.51.0",
