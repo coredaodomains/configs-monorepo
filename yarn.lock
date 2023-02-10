@@ -428,7 +428,7 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "@cnsjs/eslint-config-jest@workspace:packages/jest"
   dependencies:
-    "@cnsjs/eslint-config": "workspace:*"
+    "@cnsjs/eslint-config": ^0.0.1
     eslint: ^8.33.0
     eslint-config-prettier: ^8.6.0
     eslint-plugin-import: ^2.27.5
@@ -452,6 +452,7 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "@cnsjs/eslint-config-mocha@workspace:packages/mocha"
   dependencies:
+    "@cnsjs/eslint-config": ^0.0.1
     eslint: ^8.33.0
     eslint-config-prettier: ^8.6.0
     eslint-plugin-import: ^2.27.5
@@ -492,7 +493,7 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "@cnsjs/eslint-config-typescript@workspace:packages/typescript"
   dependencies:
-    "@cnsjs/eslint-config": ^0.0.1
+    "@cnsjs/eslint-config": "workspace:^"
     "@types/jest": ^29.4.0
     "@typescript-eslint/eslint-plugin": ^5.51.0
     "@typescript-eslint/parser": ^5.51.0
@@ -515,7 +516,7 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"@cnsjs/eslint-config@^0.0.1, @cnsjs/eslint-config@workspace:*, @cnsjs/eslint-config@workspace:packages/base":
+"@cnsjs/eslint-config@^0.0.1, @cnsjs/eslint-config@workspace:^, @cnsjs/eslint-config@workspace:packages/base":
   version: 0.0.0-use.local
   resolution: "@cnsjs/eslint-config@workspace:packages/base"
   dependencies:
